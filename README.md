@@ -1,4 +1,4 @@
-# Javascript Exercise
+# Chartlytics Javascript Exercise
 
 ## Description
 
