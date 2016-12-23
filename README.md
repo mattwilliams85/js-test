@@ -2,7 +2,7 @@
 
 ## Description
 
-An important corporation is implementing a complex list, you are given a list of resources which can vary by type. There is a natural ordering of these resources determined by the field `order`. To simplify our list, we want to aggregate adjacent resources with a type of `Person` into one single resource, with a collection of the `name`'s in a new field `people`. The aggregate resources should have an `order` equal to the smallest `order` within the group.
+An important corporation is implementing a complex list, you are given a list of resources which can vary by type. There is a natural ordering of these resources determined by the field `order`. To simplify our list, we want to aggregate adjacent resources with a type of `Person` into one single resource, with a collection of the `name`'s in a new field `people`. The aggregate resources should have an `order` equal to the ~~smallest~~**largest** `order` within the group.
 
 ## Goals
 
