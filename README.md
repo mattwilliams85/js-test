@@ -96,3 +96,11 @@ const resources = [{
   }
 ]
 ```
+
+#### Note
+
+The reason `Sarah` and `Eric` are grouped as they are is as follows:
+
+ There is no `resource` of `type` `Place` which has an `order` between `Sarah`'s `order` and `Eric`'s `order`, so they get grouped into one cohesive `resource`.
+
+The function should work for any set of `Person` and `Place` `resource`'s
