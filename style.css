@@ -1,0 +1,60 @@
+body {
+  background: #e5e5e5;
+  padding: 20px;
+  color: #333;
+  font-family: 'Montserrat';
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter {
+  cursor: pointer;
+  margin: 0 15px 0 0;
+  color: #aaa;
+}
+
+.filter.active {
+  color: #333;
+  border-bottom: 3px solid orange;
+}
+
+.item {
+  cursor: pointer;
+  background: #fff;
+  margin: 0 0 2px 0;
+  width: 400px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.subtext {
+  color: #aaa;
+  font-size: 10pt;
+  text-transform: capitalize;
+}
+
+.item:hover {
+  background: orange;
+}
+
+.item:hover * {
+  color: #fff;
+}
+
+i {
+  font-size: 24pt !important;
+  width: 50px;
+  color: #00a793;
+}
+
+.place i {
+  color: #a91f62;
+}
+
+.hidden {
+  display: none;
+}

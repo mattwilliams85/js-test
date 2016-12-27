@@ -1,0 +1,27 @@
+<title>JS Test</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<body>
+  <h1>Resources</h1>
+  <span class="filter active" id="all">All</span>
+  <span class="filter" id="places">Places</span>
+  <span class="filter" id="people">People</span>
+  <br><br>
+  <div id="resources"></div>
+
+  <div class="item row hidden" id="blueprint">
+    <div class="row">
+      <i class="material-icons" id="type"></i>
+      <div>
+        <div id="name"></div>
+        <div class="subtext" id="type"></div>
+      </div>
+    </div>
+    <span id="order"></span>
+  </div>
+</body>
+
+<script src="app.js"></script>
